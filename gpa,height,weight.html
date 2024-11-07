@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GPA, Height, Weight</title>
+    </head>
+    <style>
+        body{
+            font-family: times new roman;
+            background-color: grey;
+        }
+    </style>
+    <body>
+        <center>
+        <h2>GPA, Height, Weight</h2>
+        <script>
+const gpa = parseFloat(prompt("Enter GPA: "));
+const height = parseFloat(prompt("Enter Height: "));
+const weight = parseFloat(prompt("Enter Weight: "));
+document.write(`GPA: ${gpa.toFixed(2)}`);
+document.write(`Height: ${height.toFixed(2)} cm`);
+document.write(`Weight: ${weight.toFixed(2)} kg`);
+        </script>
+        </center>
+    </body>
+</html>
